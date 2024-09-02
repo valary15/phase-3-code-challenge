@@ -59,7 +59,7 @@ def apply_decorator(func):
 def sort_by_age(lst):
     return sorted(lst, key=lambda x: x[1])
 
-# Sets and Dictionaries: Merge Dictionaries
+# merge_dicts
 def merge_dicts(dict1,dict2):
     total_dict={}
     for key in dict1:
